@@ -1,0 +1,15 @@
+# challenge data (organisers' data, not redistributed)
+dataset/
+# pipeline caches and outputs (created by run_all.py)
+work/
+output/
+*.tsv
+*.parquet
+*.npy
+*.pkl
+*.zip
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

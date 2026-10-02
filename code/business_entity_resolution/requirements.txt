@@ -1,0 +1,21 @@
+# Python 3.11
+numpy==2.4.6
+scipy==1.17.1
+pyarrow==25.0.1
+lightgbm==4.7.0
+numba==0.67.0
+llvmlite==0.49.0
+rapidfuzz==3.14.6
+Unidecode==1.4.0
+sparse-dot-topn==1.2.0
+# team ensemble (team_stack.py)
+pandas==3.0.6
+scikit-learn==1.9.1
+# cross-encoder stage (crossenc.py / blend2.py / final.py / team_stack.py); CUDA build:
+#   pip install torch==2.14.0 --index-url https://download.pytorch.org/whl/cu126
+torch==2.14.0
+transformers==4.57.1
+tokenizers==0.22.2
+safetensors==0.8.0
+huggingface_hub==0.36.2
+sentencepiece==0.2.1
