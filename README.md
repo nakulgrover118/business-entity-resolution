@@ -1,7 +1,8 @@
 # Business Entity Resolution — ML Challenge 2026
 
-**Team Gym Bros** — Nakul Grover, Manjot Singh, Arshpreet Gill
+**Team Gym Bros** — Nakul Grover
 **Final leaderboard score: 0.990336** (macro F0.5 per Source-1 entity, US / India / France)
+**AIR 23 out of 32000 teams in Amazon ML challenge 2026**
 
 Given business records (name + address) from three noisy sources with no shared identifiers, find every
 Source-2 / Source-3 record that refers to the same business as each entity of the deduplicated Source 1.
